@@ -7,9 +7,11 @@ const form = document.querySelector('.form__search');
 form.addEventListener('submit', onSubmitForm);
 
 function onSubmitForm(e) {
-  e.preventDefault();
+    e.preventDefault();
     movieGallery.query = e.currentTarget.elements.search.value;
-    movieGallery.fethcMovie();
+    if (movieGallery.query === "") {
+        alert('Вибачте, ведіть назву фільму');
+    }
+     movieGallery.fethcMovie();
 }
-
 

@@ -16,7 +16,7 @@ body {
   padding: 25px 0;
   display: flex;
   justify-content: center;
-  background-color: #212121;
+  background-color: #02033a;
   border-radius: 8px;
 }
 
@@ -24,6 +24,13 @@ body {
   border-radius: 8px;
   width: 250px;
   height: 35px;
+}
+
+.input__search:hover,
+.input__search:focus
+{
+border:2px solid black;
+outline: 2px solid rgba(255, 157, 0, 0.87);
 }
 
 .button__submit {
