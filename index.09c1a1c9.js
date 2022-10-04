@@ -1,2 +1,0 @@
-const e=new class{async fethcMovie(){fetch(`http://www.omdbapi.com/?apikey=ee18fa1e&type=movie&page=${this.page}&s=${this.searchQuery}`).then((e=>e.json()))}incrementPage(){this.page+=1}resetPage(){this.page=1}get query(){return this.searchQuery}set query(e){this.searchQuery=e}constructor(){this.searchQuery="",this.page=1}};document.querySelector(".form__search").addEventListener("submit",(function(t){t.preventDefault(),e.query=t.currentTarget.elements.search.value}));
-//# sourceMappingURL=index.09c1a1c9.js.map
