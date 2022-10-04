@@ -7,8 +7,7 @@ export default class NewApiMovieService {
   async fethcMovie() {
     const URL_API = 'http://www.omdbapi.com/';
     const API_KAY = 'ee18fa1e';
-      const response = fetch(
-          `${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}`
+    fetch(`${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}`
       ).then(r => {
           return r.json();
       });
