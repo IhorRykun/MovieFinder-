@@ -9,7 +9,9 @@ export default class NewApiMovieService {
     const API_KAY = 'ee18fa1e';
       const response = fetch(
           `${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}`
-      ).then(r => {return r.json();});
+      ).then(r => {
+          return r.json();
+      });
     }
     
     incrementPage() {
