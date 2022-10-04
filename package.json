@@ -15,7 +15,7 @@
   "author": "Ihor Rykun <ihorrykun@gmail.com>",
   "license": "ISC",
   "bugs": {
-    "url": "https://github.com/goitacademy/parcel-project-template/issues"
+    "url": "https://ihorrykun.github.io/MovieFinder-/"
   },
   "dependencies": {
     "@vimeo/player": "^2.17.1",
