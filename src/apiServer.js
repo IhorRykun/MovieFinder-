@@ -12,7 +12,7 @@ export default class NewApiMovieService {
     const response = await axios.get(
       `${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}`
     );
-    return response.data;
+    return response.json();
   }
 
   incrementPage() {
