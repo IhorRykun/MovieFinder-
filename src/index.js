@@ -13,8 +13,8 @@ function onSubmitForm(e) {
   movieGallery.query = e.currentTarget.elements.search.value;
   if (movieGallery.query === '') {
     alert('Введіть назву фільму');
-  }
-  fethcMovie();
+    }
+    fethcMovie();
   movie.innerHTML = '';
 }
 
