@@ -72,3 +72,13 @@ body {
   color: white;
   outline: 2px solid rgba(255, 157, 0, 0.87);
 }
+
+
+.container__movie {
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.render__img {
+    width:320px;
+}

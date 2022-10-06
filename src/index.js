@@ -14,8 +14,8 @@ function onSubmitForm(e) {
   if (movieGallery.query === '') {
     alert('Введіть назву фільму');
     }
+    movie.innerHTML = '';
     fethcMovie();
-  movie.innerHTML = '';
 }
 
 async function fethcMovie() {
