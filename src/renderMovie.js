@@ -1,4 +1,4 @@
-export { renderMovieMarkup };
+
 const movie = document.querySelector('.render__movie');
 
 function renderMovieMarkup(movieFilm) {
@@ -15,3 +15,6 @@ function renderMovieMarkup(movieFilm) {
       .join('');
   movie.insertAdjacentHTML('beforeend', markup);
 }
+
+
+export default renderMovieMarkup;

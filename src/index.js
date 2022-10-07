@@ -14,14 +14,15 @@ function onSubmitForm(e) {
   if (movieGallery.query === '') {
     alert('Введіть назву фільму');
     }
-    fethcMovie();
+        fethcMovie();
     movie.innerHTML = '';
-    renderMovieMarkup();
   
 }
 
 async function fethcMovie() {
-  const response = await movieGallery.fethcMovie();
-    const { Search, totalResult } = response;
-    renderMovieMarkup();
+    const response = await movieGallery.fethcMovie();
+    const search = response.Search;
+    // console.log(search);
+    await renderMovieMarkup(search);
+    
 }

@@ -13,7 +13,7 @@ export default class NewApiMovieService {
       `${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}`
       );
       console.log(response.data);
-    return response.data;
+      return response.data;
   }
 
   incrementPage() {

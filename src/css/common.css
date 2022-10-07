@@ -74,7 +74,7 @@ body {
 }
 
 
-.container__movie {
+.render__movie {
     display: flex;
     flex-wrap: wrap;
 }
