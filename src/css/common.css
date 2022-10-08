@@ -20,6 +20,7 @@ body {
   background-color: #02033a;
   border-radius: 8px;
 }
+
 .header-img__title {
   width: 150px;
   height: 100px;
@@ -85,10 +86,31 @@ body {
 }
 
 .list__movie {
-  margin: 20px;
   list-style: none;
+  margin: -20px;
+  width: calc((100%-3 * 60px) / 4);
+  margin: 10px 0;
 }
 
 .render__text {
-  text-align: center;
+  margin-left: 5px;
+  width: 300px;
+    font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color:#02033a;
+}
+
+.render-span--decoration {
+  color:rgba(255, 157, 0, 0.87);
+  margin: 0 2px;
+}
+
+.render-span--year {
+  font-style: normal;
+  font-weight: 500;
+  font-size: 20px;
+  line-height: 24px;
+  color:rgba(255, 157, 0, 0.87);
 }

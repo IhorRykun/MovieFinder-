@@ -37,7 +37,7 @@ function registerIntersetObserv() {
         });
     };
     const options = {
-      rootMargin: '1000px',
+      rootMargin: '960px',
     };
 
 
