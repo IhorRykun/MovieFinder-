@@ -79,9 +79,9 @@ body {
 }
 
 .render__img {
-  width: 480px;
+  width: 320px;
   cursor: pointer;
-  height: 640px;
+  height: 480px;
 }
 
 .list__movie {
