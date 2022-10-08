@@ -22,7 +22,6 @@ function onSubmitForm(e) {
 async function fethcMovie() {
     const response = await movieGallery.fethcMovie();
     const search = response.Search;
-    // console.log(search);
     await renderMovieMarkup(search);
     
 }

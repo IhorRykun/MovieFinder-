@@ -6,11 +6,11 @@ function renderMovieMarkup(movieFilm) {
       .map(mov => {
         console.log(mov);
         const { Poster, Title, Year } = mov;
-        return `<div class="render__movie">
+        return `<li class="list__movie">
         <img class="render__img" src="${Poster}"></img>
         <p class="render__text">${Title}</p>
         <p class="render__text">${Year}</p>
-        </div>`;
+        </li>`;
       })
       .join('');
   movie.insertAdjacentHTML('beforeend', markup);

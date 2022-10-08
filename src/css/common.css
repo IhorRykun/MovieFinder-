@@ -81,4 +81,14 @@ body {
 
 .render__img {
     width:320px;
+    cursor: pointer;
+}
+
+.list__movie{
+    margin:20px;
+    list-style: none;
+}
+
+.render__text {
+    text-align: center;
 }
