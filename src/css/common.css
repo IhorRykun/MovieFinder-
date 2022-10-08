@@ -73,22 +73,22 @@ body {
   outline: 2px solid rgba(255, 157, 0, 0.87);
 }
 
-
 .render__movie {
-    display: flex;
-    flex-wrap: wrap;
+  display: flex;
+  flex-wrap: wrap;
 }
 
 .render__img {
-    width:320px;
-    cursor: pointer;
+  width: 480px;
+  cursor: pointer;
+  height: 640px;
 }
 
-.list__movie{
-    margin:20px;
-    list-style: none;
+.list__movie {
+  margin: 20px;
+  list-style: none;
 }
 
 .render__text {
-    text-align: center;
+  text-align: center;
 }
