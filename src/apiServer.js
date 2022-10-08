@@ -10,8 +10,8 @@ export default class NewApiMovieService {
     const URL_API = 'https://www.omdbapi.com/';
     const API_KAY = 'ee18fa1e';
     const response = await axios.get(
-      `${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}`
-      );
+      `${URL_API}?apikey=${API_KAY}&type=movie&page=${this.page}&s=${this.searchQuery}&plot=full`
+    );
       console.log(response.data);
       return response.data;
   }
