@@ -22,7 +22,10 @@ function onSubmitForm(e) {
 
 async function fethcMovie() {
   const response = await movieGallery.fethcMovie();
-    const search = response.Search;
+  const search = response.Search;
+  if (search === response.false) {
+    alert('Такого фільма не знайдено');
+  }
   await renderMovieMarkup(search);
 }
 
