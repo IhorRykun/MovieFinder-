@@ -16,8 +16,8 @@ function onSubmitForm(e) {
     alert('Введіть назву фільму');
   }
   fethcMovie();
-  movie.innerHTML = '';
   registerIntersetObserv();
+  movie.innerHTML = '';
 }
 
 async function fethcMovie() {
