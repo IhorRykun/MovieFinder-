@@ -11,7 +11,6 @@ form.addEventListener('submit', onSubmitForm);
 
 function onSubmitForm(e) {
   e.preventDefault();
-  newOpenPage();
   movieGallery.query = e.currentTarget.elements.search.value;
   if (movieGallery.query === '') {
     alert('Введіть назву фільму');
@@ -45,8 +44,4 @@ function registerIntersetObserv() {
 
   const observe = new IntersectionObserver(onEntry, options);
   observe.observe(containerScroll);
-}
-
-function newOpenPage() {
-window.open('/src/render.html');
 }
