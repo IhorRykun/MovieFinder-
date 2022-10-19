@@ -6,8 +6,9 @@ function renderMovieMarkup(movieFilm) {
       console.log(mov);
       const { Poster, Title, Year } = mov;
       return `<li class="list__movie">
-        <img class="render__img" src="${Poster}"></img>
-        <p class="render__text">${Title} <span class="render-span--decoration">|</span><span class="render-span--year">${Year}</span></p>
+        <img class="render__img" src="${Poster}">
+        <p class="render__text">${Title} <span class="render-span--decoration">|</span><span class="render-span--year">${Year}</span></p></img>
+        
         </li>`;
     })
     .join('');
