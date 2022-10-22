@@ -17,7 +17,7 @@
   padding: 25px 0;
   display: flex;
   align-items: center;
-  justify-content: space-around;
+  justify-content: flex-start;
 }
 .header-img__title {
   @media screen and (max-width: 767px) {
@@ -32,13 +32,12 @@
   }
   width: 150px;
   height: 100px;
-  margin-left: 80px;
-  margin-right: 100px;
   font-family: 'Open Sans', sans-serif;
   font-style: normal;
   font-weight: 800;
   font-size: 45px;
   line-height: 55px;
+  margin: 0 30px;
 }
 
 .header-title {
@@ -55,6 +54,13 @@
   color: rgba(255, 157, 0, 0.87);
   cursor: pointer;
 }
+.form__search {
+  @media screen and (min-width: 1024px) {
+    position: absolute;
+    top: 60px;
+    right: 100px;
+  }
+}
 
 .input__search {
   @media screen and (max-width: 767px) {
@@ -68,7 +74,7 @@
   }
   width: 230px;
   height: 35px;
-  margin-left: 140px;
+  margin-left: 225px;
   background-color: #02033a;
   border: none;
   border-bottom: 2px solid white;
