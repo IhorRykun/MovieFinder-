@@ -1,11 +1,16 @@
 .render__movie {
   @media screen and (max-width: 767px) {
     display: block;
+    text-align: center;
+    padding: 0;
+    margin-left: auto;
+    margin-right: auto;
   }
 
   display: flex;
   flex-wrap: wrap;
   justify-content: center;
+  list-style: none;
 }
 
 .render__img {
@@ -44,7 +49,8 @@
 
 .render__text {
   @media screen and (max-width: 767px) {
-    width: 320px;
+    text-align: center;
+    display: block;
   }
 
   margin-left: 5px;
