@@ -1,5 +1,6 @@
 import NewApiMovieService from './apiServer';
 import renderMovieMarkup from './renderMovie';
+import scroll from "./scroll";
 
 const movieGallery = new NewApiMovieService();
 

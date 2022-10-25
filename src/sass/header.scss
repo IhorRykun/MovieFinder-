@@ -119,9 +119,12 @@ ul {
 }
 
 .scroll {
-  padding-top: 180px;
-  background-color: #02033021.4;
+  background-color: #02033040;
   position: fixed;
   width: 100%;
   z-index: 100;
+}
+
+.padding_ul {
+  padding-top: 180px;
 }
