@@ -21,3 +21,4 @@ function renderMovieMarkup(movieFilm) {
 }
 
 export default renderMovieMarkup;
+
