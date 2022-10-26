@@ -1,6 +1,7 @@
 import NewApiMovieService from './apiServer';
 import renderMovieMarkup from './renderMovie';
-import scroll from "./scroll";
+import scroll from './scroll';
+import mouseHoverContainer from './mouseovner';
 
 const movieGallery = new NewApiMovieService();
 
